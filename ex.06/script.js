@@ -9,7 +9,7 @@ let nota3 = parseFloat(prompt("Digite a terceira nota:"));
 
 let media = (nota1 + nota2 + nota3) / 3;
 
-if (media >= 7) {
+if (media > 7) {
     alert(
         `Aluno: ${nome}
 Nota 1: ${nota1}
@@ -21,7 +21,7 @@ Situação: Aprovado`
     );
 } else {
     alert(
-        `Igor: ${nome}
+        `Aluno: ${nome}
 Nota 1: ${nota1}
 Nota 2: ${nota2}
 Nota 3: ${nota3}
