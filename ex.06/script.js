@@ -11,7 +11,7 @@ let media = (nota1 + nota2 + nota3) / 3;
 
 if (media > 7) {
     alert(
-        `Aluno: ${nome}
+        `Olá: ${nome}
 Nota 1: ${nota1}
 Nota 2: ${nota2}
 Nota 3: ${nota3}
@@ -21,7 +21,7 @@ Situação: Aprovado`
     );
 } else {
     alert(
-        `Aluno: ${nome}
+        `Olá: ${nome}
 Nota 1: ${nota1}
 Nota 2: ${nota2}
 Nota 3: ${nota3}
